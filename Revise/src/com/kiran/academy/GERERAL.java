@@ -9,6 +9,8 @@ public class GERERAL {
 		int b=35;
 		 int c=a+b;
 		 System.out.println(c);
+		 System.out.println(a);
+		 System.out.println(b);
 
 	}
 
