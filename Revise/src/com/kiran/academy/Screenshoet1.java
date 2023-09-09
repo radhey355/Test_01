@@ -36,8 +36,7 @@ public class Screenshoet1 {
 		e.printStackTrace();
 		
 	}
-	  //close all windows
-		//not for single window
+	  
 	  driver.quit();
 	}
 	
