@@ -36,6 +36,7 @@ public class Screenshoet1 {
 		e.printStackTrace();
 		
 	}
+	  //close all windows
 	  driver.quit();
 	}
 	
