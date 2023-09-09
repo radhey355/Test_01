@@ -37,6 +37,7 @@ public class Screenshoet1 {
 		
 	}
 	  //close all windows
+		//not for single window
 	  driver.quit();
 	}
 	
