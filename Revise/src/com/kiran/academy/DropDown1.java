@@ -21,11 +21,12 @@ public class DropDown1 {
 	//copy x path of where u click to dropdown
 	WebElement element= driver.findElement(By.xpath("//*[@id=\"tblcrtac\"]/tbody/tr[22]/td[3]/select[1]"));
 	 Select dropdown = new Select(element);
-	 dropdown.selectByValue("28");
+	 dropdown.selectByValue("28+25");
 	 
 	 WebElement element1 =	 driver .findElement(By.xpath("//*[@id=\"tblcrtac\"]/tbody/tr[22]/td[3]/select[2]"));
 	 Select dropdown1 = new Select(element1);
-	 dropdown1.selectByIndex(4);
+	 dropdown1.selectByIndex(4 );
+	 System.out.println("add");
 	
      
 	 
